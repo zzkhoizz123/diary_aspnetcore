@@ -62,8 +62,8 @@ namespace diary.Controllers
                   // EntryContext entryContext =
                   // HttpContext.RequestServices
                   // .GetService(typeof(diary.Models.EntryContext)) as EntryContext;
-
                   // model.entryList = entryContext.GetAllEntry();
+
                   model.UserName = _usermanager.GetUserName(User);
 
                   var entries = _context.Entries
