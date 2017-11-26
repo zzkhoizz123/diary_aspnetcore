@@ -3,6 +3,8 @@
 <html lang="en">
 <!-- Head -->
 <head>
+    
+    <link rel="icon" href="~/images/favicon-2.ico" />
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -99,9 +101,6 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav link-effect-4">
                             <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                            <environment include="Development">
-                                <li><a asp-area="" asp-controller="Users" asp-action="Index">Users</a></li>
-                            </environment>
                             <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                             <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                         </ul>
